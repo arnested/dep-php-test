@@ -6,8 +6,6 @@ updates:
     schedule:
       interval: daily
       timezone: Europe/Copenhagen
-    reviewers:
-      - "reload/developers"
     ignore:
       - dependency-name: "php"
         update-times: ["version-update:semver-major", "version-update:semver-minor", "version-update:semver-patch"]
@@ -18,5 +16,3 @@ updates:
     schedule:
       interval: daily
       timezone: Europe/Copenhagen
-    reviewers:
-      - "reload/developers"
